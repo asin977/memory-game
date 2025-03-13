@@ -1,0 +1,50 @@
+#grid {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+#result{
+    color:darkred;
+    font-family:sans-serif;
+}
+h3{
+    color:green;
+    font-family:sans-serif;
+    font-weight:700;
+}
+body{
+    overflow: hidden;
+}
+
+html, body {
+    overflow-x: hidden; 
+    margin: 0;
+    padding: 0;
+}
+
+
+#grid {
+    max-width: 100%;  
+    overflow: hidden; 
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    min-height: 100vh;
+    margin-left:10px;
+    background-color:cadetblue;
+}
+.title{
+    color:darkblue;
+    text-align: center;
+}
+.score{
+    font-size:25px;
+    color:goldenrod;
+}

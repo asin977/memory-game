@@ -68,6 +68,9 @@ function checkMatch() {
     console.log(cards)
     console.log('check for match!');
     if (optionIdOne == optionIdTwo) {
+        cards[optionIdOne].setAttribute('src','images/blank.png')
+        cards[optionIdTwo].setAttribute('src','images/blank.png')
+
         alert('You have clicked the same image!');
     }
 
@@ -118,4 +121,5 @@ function flipCard() {
        setTimeout(checkMatch,500)
     }
 }
+
                                          
